@@ -11,9 +11,21 @@ O Sistema deve permitir o(s) cadastro(s) dos seguintes tipos:
 	Eleitores
 	
 O sistema deve ter os seguintes subsistemas:
-	Sistema de interface para cadastro de candidatos e partidos.
+	Sistema de interface para cadastro de candidatos e partidos, onde irá ser exigido:
+	- Nome do partido.
+	- Numéro do partido.
+	- Imagem da logo do partido. 
+	- Nome do candidato.
+	- Número do candidato.
+	- Se o mesmo está se candidatando a Deputado Federal, Deputado Estadual, Senador, Governador ou Presidente (Vereador e Prefeito são opcionais).
+	- Foto do candidato.
 	Sistema de apuração dos votos.
-	Sistema de inteface para votação.
+	Sistema de inteface para votação, onde será exibido:
+	- Espaços para o preenchimento dos números dos candidatos.
+	- O número quando digitado corretamente apresentará a imagem e a logo do partido do candidato.
+	- Tela de carregamento de confirmação.
+	- Renderização para outra tela de preenchimento dos números, porém, para candidatos a serem eleitos para outros poderes.
+	- Quando finalizado o preenchimento da votação do eleitor para presidente o mesmo será renderizado para a tela de carregamento e depois a tela de finalização.
 	
 Cada eleitor só pode votar 1 vez por turno.
 

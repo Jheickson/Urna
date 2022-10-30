@@ -1,0 +1,26 @@
+A eleição é do tipo Vencedor unitário com Maioria Absoluta.
+
+Pode chegar ao 2º turno (Caso nenhum dos canditatos receba >50% dos votos)
+	Apenas os candidatos que receberam um valor maior que uma certa proporção seguem para o 2º turno.
+	O vencedor do 2º turno é o candidato que recebe a maioria dos votos.
+	Em caso de empate o candidato mais velho é eleito.
+	
+O Sistema deve permitir o(s) cadastro(s) dos seguintes tipos:
+	Partidos
+	Candidatos
+	Eleitores
+	
+O sistema deve ter os seguintes subsistemas:
+	Sistema de interface para cadastro de candidatos e partidos.
+	Sistema de apuração dos votos.
+	Sistema de inteface para votação.
+	
+Cada eleitor só pode votar 1 vez por turno.
+
+Eleitores têm sua seção e zona de votação assignadas pelo sistema.
+
+O sistema deve emitir um comprovante de votação ao computar o voto com sucesso.
+
+Os dados e informações devem ser protegidos.
+
+Ao final de cada turno o sistema deve exibir um boletim de votação, onde será possível verificar a quantidade de votos que cada candidato recebeu.

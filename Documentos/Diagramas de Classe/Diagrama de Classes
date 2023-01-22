@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-22T19:19:07.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wq1WIoZPJsKIPV2B0Kb2" version="20.8.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-22T19:34:09.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OHDmWQ8I8b0w8FTIhtxs" version="20.8.10" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="1195" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
           <mxGeometry y="78" width="200" height="32" as="geometry" />
         </mxCell>
         <mxCell id="iLCpfOJqAA2y2_xsdun_-25" value="Administrador" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="472" width="160" height="86" as="geometry" />
+          <mxGeometry x="570" y="472" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="iLCpfOJqAA2y2_xsdun_-26" value="+ adminID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iLCpfOJqAA2y2_xsdun_-25">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -79,11 +79,10 @@
         <mxCell id="iLCpfOJqAA2y2_xsdun_-28" value="+ gerarResultado()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="iLCpfOJqAA2y2_xsdun_-25">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="iLCpfOJqAA2y2_xsdun_-32" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0;entryY=0.827;entryDx=0;entryDy=0;entryPerimeter=0;comic=0;" edge="1" parent="1" target="iLCpfOJqAA2y2_xsdun_-26">
-          <mxGeometry x="-0.0002" y="-10" width="80" relative="1" as="geometry">
-            <mxPoint x="260" y="520" as="sourcePoint" />
-            <mxPoint x="340" y="520" as="targetPoint" />
-            <mxPoint as="offset" />
+        <mxCell id="iLCpfOJqAA2y2_xsdun_-37" value="&amp;lt;&amp;lt;enviaRelatorio&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;comic=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="iLCpfOJqAA2y2_xsdun_-26">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="260" y="510" as="sourcePoint" />
+            <mxPoint x="340" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

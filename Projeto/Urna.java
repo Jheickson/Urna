@@ -20,7 +20,7 @@ class Voter {
   public String getName() {
 
     return name;
-    
+
   }
 
   public String getId() {

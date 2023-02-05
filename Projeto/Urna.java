@@ -179,4 +179,5 @@ public class Urna {
     poll.writeResultsToFile("Projeto/resultados.csv");
 
   }
-  }
+
+}

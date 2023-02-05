@@ -176,7 +176,7 @@ public class Urna {
     }
 
     poll.displayResults();
-    poll.writeResultsToFile("resultados.csv");
+    poll.writeResultsToFile("Projeto/resultados.csv");
 
   }
   }

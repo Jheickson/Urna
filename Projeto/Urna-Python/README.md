@@ -1,6 +1,6 @@
 <h1 align="center">Urna eletrônica</h1>
 <h2 align="center">Urna eletrônica feita em python</h2>
-<i>(Exclusiva para presidente)</i>
+<i>(Exclusiva para presidente, governador e prefeito)</i>
 
 <hr>
 

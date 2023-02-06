@@ -35,36 +35,3 @@
 
 <p>Windows: </p>
 <pre>python menu.py</pre>
-
-A seguinte janela deve ser exibida:
-
-<img src="arq/menu.png">
-
-<br>
-
-<strong>Cadastrando candidatos</strong>
-
-<p>Ao clicar na primeira opção, a seguinte janela irá ser exibida: </p>
-<img src="arq/cadastro.png">
-
-<br>
-
-<p>Ao cadastrar os candidatos desejados, feche a janela</p>
-
-<hr>
-
-<br>
-
-<strong>Hora de votar !</strong>
-
-<p>Clicando na segunda opção, a seguinte janela irá ser exibida:</p>
-<img src="arq/urna.png">
-<p>Digite o número do candidato desejado e aperta no botão '<b>confirma</b>'</p>
-<p>Caso tenha errado o número, clique no botão '<b>del</b>'</p>
-
-<p>Após todos votarem, feche a janela</p>
-<hr>
-<br>
-<strong>Conferindo o resultado</strong>
-<p>Clicando na última opção deverá ser exibida uma janela contendo o nome dos candidatos e o número de votos</p>
-<img src="arq/resultado.png">
